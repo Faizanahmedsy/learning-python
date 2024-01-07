@@ -6,6 +6,11 @@ fruits = [4, True, "hi"]
 newArrayThatWillChangeTheOriginalArray = fruits
 newArrayThatWillChangeTheOriginalArray[0] = "first"
 
+
+# You can make the copy of the original array by using [:] this operatior
+copyOfTheOriginalArrThatWillNotChangeTheOriginalArray = fruits[:]
+copyOfTheOriginalArrThatWillNotChangeTheOriginalArray[0] = "You cant see me"
+
 # Append method is used to push an element in the list, the new element is added in the last
 fruits.append("This was added in the last")
 
