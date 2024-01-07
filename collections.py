@@ -2,6 +2,10 @@
 fruits = [4, True, "hi"]
 
 
+# list are mutable if you change it from somewhere else the original list is going to be changed
+newArrayThatWillChangeTheOriginalArray = fruits
+newArrayThatWillChangeTheOriginalArray[0] = "first"
+
 # Append method is used to push an element in the list, the new element is added in the last
 fruits.append("This was added in the last")
 
